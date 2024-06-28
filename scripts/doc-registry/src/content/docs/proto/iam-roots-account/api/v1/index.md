@@ -110,9 +110,9 @@ Webauthn service is used to register and revoke Webauthn credentials.
 
 | Method Name | Description |
 | ----------- | ------------|
-| `StartRegistration` <br /><br /> Request: [StartRegistrationRequest](#garajonai.platform.iamrootsaccount.api.v1.StartRegistrationRequest) <br /> Response: [StartRegistrationResponse](#garajonai.platform.iamrootsaccount.api.v1.StartRegistrationRequest) | <para></para> |
-| `FinishRegistration` <br /><br /> Request: [FinishRegistrationRequest](#garajonai.platform.iamrootsaccount.api.v1.FinishRegistrationRequest) <br /> Response: [FinishRegistrationResponse](#garajonai.platform.iamrootsaccount.api.v1.FinishRegistrationRequest) | <para></para> |
-| `RevokeConnection` <br /><br /> Request: [RevokeConnectionRequest](#garajonai.platform.iamrootsaccount.api.v1.RevokeConnectionRequest) <br /> Response: [RevokeConnectionResponse](#garajonai.platform.iamrootsaccount.api.v1.RevokeConnectionRequest) | <para></para> |
+| `StartRegistration` <br /><br /> Request: [StartRegistrationRequest](#garajonai.platform.iamrootsaccount.api.v1.StartRegistrationRequest) <br /> Response: [StartRegistrationResponse](#garajonai.platform.iamrootsaccount.api.v1.StartRegistrationRequest) | <para>StartRegistration is used to start the registration of a Webauthn credential.</para> |
+| `FinishRegistration` <br /><br /> Request: [FinishRegistrationRequest](#garajonai.platform.iamrootsaccount.api.v1.FinishRegistrationRequest) <br /> Response: [FinishRegistrationResponse](#garajonai.platform.iamrootsaccount.api.v1.FinishRegistrationRequest) | <para>FinishRegistration is used to finish the registration of a Webauthn credential.</para> |
+| `RevokeConnection` <br /><br /> Request: [RevokeConnectionRequest](#garajonai.platform.iamrootsaccount.api.v1.RevokeConnectionRequest) <br /> Response: [RevokeConnectionResponse](#garajonai.platform.iamrootsaccount.api.v1.RevokeConnectionRequest) | <para>RevokeConnection is used to revoke a Webauthn credential.</para> |
 
 
 
@@ -322,7 +322,7 @@ Candidate to be rewritten
 <!-- ------  Messages ------ -->
 <a name="garajonai.platform.iamrootsaccount.api.v1.AttestationResponse"></a>
 ### AttestationResponse
-*Description comment will be shown here (markdown supported)*
+AttestationResponse is the response from the Webauthn authenticator.
 
 
 #### Fields
@@ -337,7 +337,7 @@ Candidate to be rewritten
 
 <a name="garajonai.platform.iamrootsaccount.api.v1.AuthenticatorSelection"></a>
 ### AuthenticatorSelection
-*Description comment will be shown here (markdown supported)*
+AuthenticatorSelection is the selection of the authenticator.
 
 
 #### Fields
@@ -353,7 +353,7 @@ Candidate to be rewritten
 
 <a name="garajonai.platform.iamrootsaccount.api.v1.FinishRegistrationRequest"></a>
 ### FinishRegistrationRequest
-*Description comment will be shown here (markdown supported)*
+FinishRegistrationRequest is the request to finish the registration of a Webauthn credential.
 
 
 #### Fields
@@ -372,7 +372,7 @@ Candidate to be rewritten
 
 <a name="garajonai.platform.iamrootsaccount.api.v1.FinishRegistrationResponse"></a>
 ### FinishRegistrationResponse
-*Description comment will be shown here (markdown supported)*
+FinishRegistrationResponse is the response to the FinishRegistrationRequest.
 
 
 #### Fields
@@ -386,7 +386,7 @@ Candidate to be rewritten
 
 <a name="garajonai.platform.iamrootsaccount.api.v1.PuKeyCredParams"></a>
 ### PuKeyCredParams
-*Description comment will be shown here (markdown supported)*
+PuKeyCredParams is the public key credential parameters.
 
 
 #### Fields
@@ -401,7 +401,7 @@ Candidate to be rewritten
 
 <a name="garajonai.platform.iamrootsaccount.api.v1.PublicKey"></a>
 ### PublicKey
-*Description comment will be shown here (markdown supported)*
+PublicKey is the public key used to register a Webauthn credential.
 
 
 #### Fields
@@ -421,7 +421,7 @@ Candidate to be rewritten
 
 <a name="garajonai.platform.iamrootsaccount.api.v1.ReplyingParty"></a>
 ### ReplyingParty
-*Description comment will be shown here (markdown supported)*
+ReplyingParty is the party that is replying to the Webauthn request.
 
 
 #### Fields
@@ -436,7 +436,7 @@ Candidate to be rewritten
 
 <a name="garajonai.platform.iamrootsaccount.api.v1.RevokeConnectionRequest"></a>
 ### RevokeConnectionRequest
-*Description comment will be shown here (markdown supported)*
+RevokeConnectionRequest is the request to revoke a Webauthn credential.
 
 
 #### Fields
@@ -451,7 +451,7 @@ Candidate to be rewritten
 
 <a name="garajonai.platform.iamrootsaccount.api.v1.RevokeConnectionResponse"></a>
 ### RevokeConnectionResponse
-*Description comment will be shown here (markdown supported)*
+RevokeConnectionResponse is the response to the RevokeConnectionRequest.
 
 
 #### Fields
@@ -465,7 +465,7 @@ Candidate to be rewritten
 
 <a name="garajonai.platform.iamrootsaccount.api.v1.StartRegistrationRequest"></a>
 ### StartRegistrationRequest
-*Description comment will be shown here (markdown supported)*
+StartRegistrationRequest is the request to start the registration of a Webauthn credential.
 
 
 #### Fields
@@ -479,7 +479,7 @@ Candidate to be rewritten
 
 <a name="garajonai.platform.iamrootsaccount.api.v1.StartRegistrationResponse"></a>
 ### StartRegistrationResponse
-*Description comment will be shown here (markdown supported)*
+StartRegistrationResponse is the response to the StartRegistrationRequest.
 
 
 #### Fields

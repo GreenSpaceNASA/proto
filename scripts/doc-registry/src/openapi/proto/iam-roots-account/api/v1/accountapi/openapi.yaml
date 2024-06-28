@@ -91,6 +91,7 @@ components:
                     type: string
                 attestationObject:
                     type: string
+            description: AttestationResponse is the response from the Webauthn authenticator.
         garajonai.platform.iamrootsaccount.api.v1.AuthenticatorSelection:
             type: object
             properties:
@@ -100,6 +101,7 @@ components:
                     type: boolean
                 userVerification:
                     type: string
+            description: AuthenticatorSelection is the selection of the authenticator.
         garajonai.platform.iamrootsaccount.api.v1.PuKeyCredParams:
             type: object
             properties:
@@ -108,6 +110,7 @@ components:
                 alg:
                     type: integer
                     format: int32
+            description: PuKeyCredParams is the public key credential parameters.
         garajonai.platform.iamrootsaccount.api.v1.PublicKey:
             type: object
             properties:
@@ -129,6 +132,7 @@ components:
                     format: int32
                 attestation:
                     type: string
+            description: PublicKey is the public key used to register a Webauthn credential.
         garajonai.platform.iamrootsaccount.api.v1.ReplyingParty:
             type: object
             properties:
@@ -136,6 +140,7 @@ components:
                     type: string
                 name:
                     type: string
+            description: ReplyingParty is the party that is replying to the Webauthn request.
         garajonai.platform.iamrootsaccount.api.v1.User:
             type: object
             properties:

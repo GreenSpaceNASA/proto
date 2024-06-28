@@ -177,13 +177,13 @@ Condition, the condition of the water. In house algorithm to define the conditio
 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
-| GOOD | 0 | <para></para> |
-| MODERATE | 1 | <para></para> |
-| CONTAMINATED | 2 | <para></para> |
-| UNKNOWN | 3 | <para></para> |
-| RADIATION | 4 | <para></para> |
-| DANGER | 5 | <para></para> |
-| PROTECTED | 6 | <para></para> |
+| GOOD | 0 | <para>The water is good.</para> |
+| MODERATE | 1 | <para>The water is moderate.</para> |
+| CONTAMINATED | 2 | <para>The water is contaminated.</para> |
+| UNKNOWN | 3 | <para>The condition of the water is unknown.</para> |
+| RADIATION | 4 | <para>The water has radiation.</para> |
+| DANGER | 5 | <para>The water is in danger due to a natural disaster, human activity or danger animal lives there.</para> |
+| PROTECTED | 6 | <para>The water is protected due to its natural beauty, flora, fauna or geological formations.</para> |
 
 </details>
 

@@ -1,4 +1,14 @@
 
+<a name="v1.30.0"></a>
+## [v1.30.0](https://github.com/garajonai/proto/compare/v1.29.4...v1.30.0)
+
+> 2024-03-15
+
+### Fix
+
+* **proto:** reviewdog lint
+
+
 <a name="v1.29.4"></a>
 ## [v1.29.4](https://github.com/garajonai/proto/compare/v1.29.3...v1.29.4)
 
